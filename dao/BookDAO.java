@@ -104,7 +104,7 @@ public class BookDAO {
                 }
             }
         }
-        return null; // no book found with that id
+        return null; 
     }
 
     public void updateBook(Book book) throws SQLException {
