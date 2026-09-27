@@ -26,7 +26,6 @@ public class Main {
 
         DBConnection.setupDatabase();
 
-        // shows the abstract Person / polymorphism in action
         Librarian librarian = new Librarian("Mrs. Sharma", "9800000000", "EMP001");
         System.out.println("Welcome! " + librarian.getRole() + " on duty: " + librarian.getName());
 
@@ -103,7 +102,6 @@ public class Main {
         System.out.print("Choose an option: ");
     }
 
-    // keeps asking until the user types a real number
     static int readInt(String message) {
         int value = -1;
         boolean valid = false;
